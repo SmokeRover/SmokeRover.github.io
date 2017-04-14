@@ -1,0 +1,63 @@
+
+    html {min-width:585px; min-height:500px; position:relative; max-height:auto; }
+    
+    body {box-sizing:border-box; color:#D06364; background-color:#333333; }
+    
+    a {color:#6663D0;}
+    
+    
+    .dropbtn { 
+    background-color:#A24343;
+    color:#ffffff;
+    padding:10px;
+    font-size:11px;
+    margin-left:auto;
+    margin-right:auto;
+    text-align:left;
+    border:none;
+    cursor:pointer;
+    }
+    
+    .dropdown { 
+    position:relative;
+    display:inline-block;
+    }
+    
+    .dropdown-content { 
+    display:none;
+    position:absolute;
+    background-color:#A24343;
+    min-width:100px;
+    box-shadow:0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index:1;
+    }
+    
+    .dropdown-content a {
+    color:#ffffff;
+    padding:6px;
+    margin-left:auto;
+    margin-right:auto;
+    font-size:13px;
+    text-decoration:none;
+    display:block;
+    }
+    
+    .dropdown-content a:hover {background-color:#D06364; }    
+    
+    .dropdown:hover .dropdown-content { 
+    display:block;
+    }
+    
+    .dropdown:hover .dropbtn {
+    background-color:#D06364;
+    }
+    
+    
+    .blocker {
+    background-color:#4A4A4A;
+    color:ff3333;
+    font-size:11px;
+    width:100%;
+    right=100%%;
+    border:none;
+    }
